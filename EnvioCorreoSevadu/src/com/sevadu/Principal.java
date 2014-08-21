@@ -16,7 +16,7 @@ public class Principal {
 	        byte[] attachmentData = rp.getReporte();
 
 	        EmailHelper.sendCommentEmail("lrosales@dusa.com.ve", "CONTROL DE DATOS INTEGRADOS AL SEVADU",attachmentData);
-	        EmailHelper.sendCommentEmail("martigas@dusa.com.ve", "CONTROL DE DATOS INTEGRADOS AL SEVADU",attachmentData);
+	        EmailHelper.sendCommentEmail("martigasd@dusa.com.ve", "CONTROL DE DATOS INTEGRADOS AL SEVADU",attachmentData);
 	        EmailHelper.sendCommentEmail("frivero84@gmail.com", "CONTROL DE DATOS INTEGRADOS AL SEVADU",attachmentData);
 		
 	}
