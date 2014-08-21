@@ -15,7 +15,9 @@ public class Principal {
 	        ReporteBase rp = new ReporteBase();	        
 	        byte[] attachmentData = rp.getReporte();
 
-	        //EmailHelper.sendCommentEmail("frivero84@gmail.com", "EL USUARIO: HA ENVIADO UNA SOLICITUD DE EVENTOS ESPECIALES CON ID: ",attachmentData);
+	        EmailHelper.sendCommentEmail("lrosales@dusa.com.ve", "CONTROL DE DATOS INTEGRADOS AL SEVADU",attachmentData);
+	        EmailHelper.sendCommentEmail("martigas@dusa.com.ve", "CONTROL DE DATOS INTEGRADOS AL SEVADU",attachmentData);
+	        EmailHelper.sendCommentEmail("frivero84@gmail.com", "CONTROL DE DATOS INTEGRADOS AL SEVADU",attachmentData);
 		
 	}
 

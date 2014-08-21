@@ -22,7 +22,7 @@ import javax.mail.util.ByteArrayDataSource;
 public class EmailHelper {
 	public static String SERVER = "ntfp01ven";
 	public static String SENDER = "cdusa@dusa.com.ve";
-	public static String SUBJECT = "NOTIFICACION DE NUEVA SOLICITUD DE FORMATO DE ACTIVIDADES";
+	public static String SUBJECT = "CONTROL DE DATOS INTEGRADOS AL SEVADU";
 
 	/** Creates a new instance of EmailHelper */
 	public EmailHelper() {
@@ -34,7 +34,7 @@ public class EmailHelper {
 
 		String body = "";
 		body = texto + ". " + "\n\n";
-		body = body + "Sistema Automatico de Envio de Correos FAC";
+		body = body + "CONTROL DE DATOS INTEGRADOS AL SEVADU";
 
 		Properties props = new Properties();
 		props.put("mail.smtp.host", "172.23.20.66");
@@ -67,7 +67,7 @@ public class EmailHelper {
 					"application/pdf");
 			MimeBodyPart pdfBodyPart = new MimeBodyPart();
 			pdfBodyPart.setDataHandler(new DataHandler(dataSource));
-			pdfBodyPart.setFileName("bankAdminReport.pdf");
+			pdfBodyPart.setFileName("controlDatosIntegrados.pdf");
 
 			MimeMultipart mimeMultipart = new MimeMultipart();
 			mimeMultipart.addBodyPart(pdfBodyPart);
