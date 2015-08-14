@@ -17,7 +17,7 @@ public class Principal {
 
 	        EmailHelper.sendCommentEmail("lrosales@dusa.com.ve", "CONTROL DE DATOS INTEGRADOS AL SEVADU",attachmentData);
 	        EmailHelper.sendCommentEmail("martigasd@dusa.com.ve", "CONTROL DE DATOS INTEGRADOS AL SEVADU",attachmentData);
-	        EmailHelper.sendCommentEmail("frivero84@gmail.com", "CONTROL DE DATOS INTEGRADOS AL SEVADU",attachmentData);
+	        EmailHelper.sendCommentEmail("ljaimes@dusa.com.ve", "CONTROL DE DATOS INTEGRADOS AL SEVADU",attachmentData);
 		
 	}
 
